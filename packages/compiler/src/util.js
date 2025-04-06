@@ -1,9 +1,9 @@
 /**
  * @license
- * Copyright Assma All Rights Reserved.
+ * Copyright Luma All Rights Reserved.
  *
  * Use of this source code is governed by an MIT license that can be
- * found in the LICENSE file at https://github.com/assmajs/assma/blob/develop/LICENSE
+ * found in the LICENSE file at https://github.com/lumajs/luma/blob/develop/LICENSE
  */
 
 import config from './config';
@@ -103,6 +103,6 @@ export const tagNames = ["a", "abbr", "acronym", "address", "applet", "area", "a
  */
 export const error = message => {
 	if (config.silent === false) {
-		console.error("[Assma] ERROR: " + message);
+		console.error("[Luma] ERROR: " + message);
 	}
 };

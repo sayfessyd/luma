@@ -1,26 +1,26 @@
 {
-	"name": "@assmajs/compiler",
-	"displayName": "Assma Compiler",
+	"name": "@lumajs/compiler",
+	"displayName": "Luma Compiler",
 	"version": "1.0.0-alpha",
-	"description": "A template compiler module for Assma.",
+	"description": "A template compiler module for Luma.",
 	"keywords": [
-		"assma",
+		"luma",
 		"compiler"
 	],
 	"types": "types/index.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/assmajs/assma.git",
+		"url": "git+https://github.com/lumajs/luma.git",
 		"directory": "packages/compiler"
 	},
 	"author": "Sayf Essyd",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/assmajs/assma/issues"
+		"url": "https://github.com/lumajs/luma/issues"
 	},
-	"homepage": "https://github.com/assmajs/assma/tree/develop/packages/compiler#readme",
+	"homepage": "https://github.com/lumajs/luma/tree/develop/packages/compiler#readme",
 	"peerDependencies": {},
 	"publishConfig": {
-		"@assmajs:registry": "https://npm.pkg.github.com"
+		"@lumajs:registry": "https://npm.pkg.github.com"
 	}
 }

@@ -1,9 +1,9 @@
 /**
  * @license
- * Copyright Assma All Rights Reserved.
+ * Copyright Luma All Rights Reserved.
  *
  * Use of this source code is governed by an MIT license that can be
- * found in the LICENSE file at https://github.com/assmajs/assma/blob/develop/LICENSE
+ * found in the LICENSE file at https://github.com/lumajs/luma/blob/develop/LICENSE
  */
 
 import {
@@ -13,7 +13,7 @@ import {
 
 /**
  * BaseAnalyser is the base class that provides elemantary methods for the analyser subclass to transform
- * Assma view's string to an AbstractSyntaxTree structure.
+ * Luma view's string to an AbstractSyntaxTree structure.
  */
 export default class BaseAnalyser {
 	/**

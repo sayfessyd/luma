@@ -54,7 +54,7 @@ jobs:
       - name: Publish
         run: |
           echo "registry=https://npm.pkg.github.com/" > ~/.npmrc
-          echo "@assmajs:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+          echo "@lumajs:registry=https://npm.pkg.github.com/" >> ~/.npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GPR_REPO_GITHUB_TOKEN }}" >> ~/.npmrc
           yarn publish packages/compiler --new-version ${ASSMA_VERSION}
         env:

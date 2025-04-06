@@ -1,15 +1,15 @@
-# Assma compiler
+# Luma compiler
 
-This package is used to compile Assma's template string into a virtual dom tree. You may need it separately if you are writing other tools that use Assma's template language.
+This package is used to compile Luma's template string into a virtual dom tree. You may need it separately if you are writing other tools that use Luma's template language.
 
 ## Installation
 
 ``` bash
-npm install @assmajs/compiler
+npm install @lumajs/compiler
 ```
 
 ``` js
-import { compile } from '@assmajs/compiler'
+import { compile } from '@lumajs/compiler'
 ```
 
 ## API

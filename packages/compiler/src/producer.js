@@ -1,16 +1,16 @@
 /**
  * @license
- * Copyright Assma All Rights Reserved.
+ * Copyright Luma All Rights Reserved.
  *
  * Use of this source code is governed by an MIT license that can be
- * found in the LICENSE file at https://github.com/assmajs/assma/blob/develop/LICENSE
+ * found in the LICENSE file at https://github.com/lumajs/luma/blob/develop/LICENSE
  */
 
 import { Constants } from './util';
 import analyse from './analyser';
 
 /**
- * This class represents the formal grammar of Assma's view language which is defined as a
+ * This class represents the formal grammar of Luma's view language which is defined as a
  * set of production rules for strings.
  */
 export default class Producer {

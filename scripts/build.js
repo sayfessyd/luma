@@ -15,7 +15,7 @@ async function build(package) {
  * ${pkg.displayName} v${pkg.version}
  * Copyright 2019-2022 Sayf Essyd
  * Released under the MIT License
- * https://www.assmajs.com
+ * https://www.lumajs.com
  */\r\n`;
 
   try {
@@ -40,11 +40,11 @@ async function build(package) {
     fs.writeFileSync(path.join(cwd, `/packages/${package}/dist/${package}.js`), developmentCode);
     fs.writeFileSync(path.join(cwd, `/packages/${package}/dist/${package}.min.js`), productionCode);
 
-    console.log("Assma development -> " + developmentCode.length / 1000 + "kb");
-    console.log("Assma production -> " + productionCode.length / 1000 + "kb");
+    console.log("Luma development -> " + developmentCode.length / 1000 + "kb");
+    console.log("Luma production -> " + productionCode.length / 1000 + "kb");
     console.log("");
-    console.log("Assma development (gzipped) -> " + gzipSize.sync(developmentCode) / 1000 + "kb");
-    console.log("Assma production (gzipped) -> " + gzipSize.sync(productionCode) / 1000 + "kb");
+    console.log("Luma development (gzipped) -> " + gzipSize.sync(developmentCode) / 1000 + "kb");
+    console.log("Luma production (gzipped) -> " + gzipSize.sync(productionCode) / 1000 + "kb");
   } catch (error) {
     console.error(error);
   }
