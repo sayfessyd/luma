@@ -8,7 +8,6 @@
 	<a href="https://github.com/lumajs/luma" target="_blank"><img src="https://img.shields.io/github/license/lumajs/luma" alt="Package License" /></a>
 	<a href="https://github.com/lumajs/luma/actions/workflows/main.yml" target="_blank"><img src="https://github.com/lumajs/luma/actions/workflows/main.yml/badge.svg" alt="CI Build" /></a>
 	<a href="https://github.com/lumajs/luma/actions/workflows/gpr-publish.yml" target="_blank"><img src="https://github.com/lumajs/luma/actions/workflows/gpr-publish.yml/badge.svg" alt="GPR Publish" /></a>
-	<a href="https://twitter.com/lumajs" target="_blank"><img src="https://img.shields.io/twitter/follow/lumajs.svg?style=social&label=Follow"></a>
 </p>
 
 ## Description
@@ -48,7 +47,6 @@ Please learn more about how you can contribute [here](https://lumajs.com/support
 
 * Author - [Sayf Essyd](https://indieweb.social/@sayfessyd)
 * Website - [https://lumajs.com](https://lumajs.com)
-* Twitter - [@lumajs](https://twitter.com/lumajs)
 
 ## License
 
